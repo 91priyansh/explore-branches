@@ -58,8 +58,7 @@ class MyApp extends StatelessWidget {
           // Define a light and dark color theme. Then, read the user's
           // preferred ThemeMode (light, dark, or system default) from the
           // SettingsController to display the correct theme.
-          theme: ThemeData(
-              colorScheme: const ColorScheme.light(secondary: Colors.red)),
+          theme: ThemeData(),
 
           darkTheme: ThemeData.dark(),
           themeMode: settingsController.themeMode,
