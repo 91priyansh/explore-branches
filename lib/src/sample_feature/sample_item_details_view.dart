@@ -10,13 +10,7 @@ class SampleItemDetailsView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        actions: [
-          IconButton(
-              onPressed: () {
-                debugPrint("Added dark theme");
-              },
-              icon: const Icon(Icons.add))
-        ],
+        //actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.add))],
         title: const Text('Item Details'),
       ),
       body: const Center(
