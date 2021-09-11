@@ -1,0 +1,6 @@
+{
+  "appTitle": "theming",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
