@@ -10,6 +10,13 @@ class SampleItemDetailsView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        actions: [
+          IconButton(
+              onPressed: () {
+                debugPrint("To add todo");
+              },
+              icon: const Icon(Icons.add))
+        ],
         title: const Text('Item Details'),
       ),
       body: const Center(
