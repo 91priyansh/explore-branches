@@ -13,7 +13,7 @@ class SampleItemDetailsView extends StatelessWidget {
         actions: [
           IconButton(
               onPressed: () {
-                debugPrint("To add todo");
+                debugPrint("Added dark theme");
               },
               icon: const Icon(Icons.add))
         ],
