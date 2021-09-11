@@ -13,13 +13,7 @@ class SampleItemDetailsView extends StatelessWidget {
         //actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.add))],
         title: const Text('Item Details'),
       ),
-      body: ListView.builder(
-          itemCount: 10,
-          itemBuilder: (context, index) {
-            return ListTile(
-              title: Text("Item number $index"),
-            );
-          }),
+      body: Container(),
     );
   }
 }
